@@ -22,6 +22,21 @@ document.addEventListener("DOMContentLoaded", () => {
   let activeFilter = "all";
   let query = "";
 
+  /* ---------- Observer для анимаций появления ---------- */
+  let revealObserver = null;
+  function observeReveal(container) {
+    if (revealObserver) revealObserver.disconnect();
+    revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (en.isIntersecting) {
+          en.target.classList.add("visible");
+          revealObserver.unobserve(en.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    container.querySelectorAll(".reveal:not(.visible)").forEach(el => revealObserver.observe(el));
+  }
+
   FILTERS.forEach(f => {
     const btn = document.createElement("button");
     btn.className = "filter-chip" + (f.key === "all" ? " active" : "");
@@ -89,21 +104,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   render();
-
-  /* ---------- Таймер отслеживания reveal ---------- */
-  let revealObserver = null;
-  function observeReveal(container) {
-    if (revealObserver) revealObserver.disconnect();
-    revealObserver = new IntersectionObserver(entries => {
-      entries.forEach(en => {
-        if (en.isIntersecting) {
-          en.target.classList.add("visible");
-          revealObserver.unobserve(en.target);
-        }
-      });
-    }, { threshold: 0.12 });
-    container.querySelectorAll(".reveal:not(.visible)").forEach(el => revealObserver.observe(el));
-  }
 
   /* ---------- Мобильное меню ---------- */
   const burger = document.getElementById("burger");

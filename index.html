@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Стоматологии Минска — агрегатор 30+ клиник с рейтингами и ценами</title>
+  <meta name="description" content="Агрегатор стоматологических клиник Минска: рейтинги пациентов, адреса, телефоны, цены на имплантацию и лечение. Выберите лучшую клинику рядом с вами.">
+  <meta property="og:title" content="Стоматологии Минска — рейтинг 30+ клиник">
+  <meta property="og:description" content="Сравнивайте клиники по рейтингам, адресам и ценам. Умный подбор стоматологии рядом с вами.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0E7C86">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦷</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==================== ШАПКА ==================== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <span class="logo__mark">🦷</span>
+        <span>Zuby<span style="color:var(--primary)">.by</span></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#clinics">Клиники</a>
+        <a href="#prices">Цены</a>
+        <a href="#tourism">Для гостей</a>
+        <a href="#how">Как выбрать</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#contact" class="header__cta" data-open-modal>Подобрать клинику</a>
+      <button class="header__burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="top">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <div class="hero__badge"><span class="hero__badge-dot"></span> 30+ проверенных клиник Минска</div>
+        <h1 class="hero__title">Стоматологии <span class="grad">Минска</span>: рейтинг, цены, сравнение</h1>
+        <p class="hero__sub">
+          Мы собрали 30 лучших стоматологических клиник столицы: честные рейтинги пациентов,
+          актуальные адреса и цены на ключевые услуги. Выбирайте по расположению, специализации
+          или бюджету — и записывайтесь напрямую.
+        </p>
+        <div class="hero__ctas">
+          <a href="#clinics" class="btn btn--primary">Смотреть клиники →</a>
+          <a href="#prices" class="btn btn--ghost">Цены на имплантацию</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-value">30+</span>
+            <span class="hero__stat-label">клиник в базе</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-value">4.8</span>
+            <span class="hero__stat-label">средний рейтинг</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-value">658₽</span>
+            <span class="hero__stat-label">имплант от (BYN)</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-value">16</span>
+            <span class="hero__stat-label">районов города</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__media">
+        <img class="hero__img" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1200&q=80" alt="Современный кабинет стоматолога в Минске" loading="eager">
+        <div class="hero__card hero__card--rating">
+          <span class="hero__card-ico">⭐</span>
+          <div>
+            <div class="hero__card-title">4.8 из 5</div>
+            <div class="hero__card-sub">по отзывам пациентов</div>
+          </div>
+        </div>
+        <div class="hero__card hero__card--safety">
+          <span class="hero__card-ico">🛡️</span>
+          <div>
+            <div class="hero__card-title">Стерильность</div>
+            <div class="hero__card-sub">контроль на каждом этапе</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ПОЛОСА ДОВЕРИЯ ==================== -->
+  <div class="trustbar">
+    <div class="container trustbar__inner">
+      <span class="trustbar__title">Популярные сети</span>
+      <div class="trustbar__items">
+        <span>401</span>
+        <span>ЭверестДент</span>
+        <span>Kano</span>
+        <span>Премиумдент</span>
+        <span>Винир</span>
+        <span>Profi-Dent</span>
+        <span>Мастодонт</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== ПРЕИМУЩЕСТВА ==================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="section-tag">Почему мы</span>
+        <h2 class="section-title">Подбор стоматологии без стресса</h2>
+        <p class="section-sub">Забудьте о бесконечном гуглении и десятках вкладок. Мы свели всё в один удобный список.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature reveal">
+          <div class="feature__ico">📊</div>
+          <h3 class="feature__title">Честные рейтинги</h3>
+          <p class="feature__text">Оценки на основе реальных отзывов пациентов, а не заявлений клиник.</p>
+        </div>
+        <div class="feature reveal reveal-delay-1">
+          <div class="feature__ico">🗺️</div>
+          <h3 class="feature__title">Все районы Минска</h3>
+          <p class="feature__text">От центра до Уручья и Каменной Горки — клиника найдётся рядом с домом.</p>
+        </div>
+        <div class="feature reveal reveal-delay-2">
+          <div class="feature__ico">💰</div>
+          <h3 class="feature__title">Цены прозрачны</h3>
+          <p class="feature__text">Сравнивайте стоимость имплантации, протезирования и лечения без звонков.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__ico">🦷</div>
+          <h3 class="feature__title">Любая специализация</h3>
+          <p class="feature__text">Детские, премиум, семейные, государственные — фильтруйте под свою задачу.</p>
+        </div>
+        <div class="feature reveal reveal-delay-1">
+          <div class="feature__ico">🚀</div>
+          <h3 class="feature__title">Запись напрямую</h3>
+          <p class="feature__text">Телефон и сайт клиники в один клик — без посредников и наценок.</p>
+        </div>
+        <div class="feature reveal reveal-delay-2">
+          <div class="feature__ico">🌍</div>
+          <h3 class="feature__title">Гостям города</h3>
+          <p class="feature__text">Специальный блок для пациентов из РФ: как добраться и что взять с собой.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== КАТАЛОГ КЛИНИК ==================== -->
+  <section class="section catalog" id="clinics">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="section-tag">Каталог</span>
+        <h2 class="section-title">30+ стоматологий Минска</h2>
+        <p class="section-sub">Найдено клиник: <strong id="clinic-count">0</strong>. Ищите по названию, адресу или услуге.</p>
+      </div>
+
+      <div class="catalog__toolbar reveal">
+        <div class="search-box">
+          <span class="search-ico">🔍</span>
+          <input type="text" id="clinic-search" placeholder="Поиск: название, район, услуга…" aria-label="Поиск клиники">
+        </div>
+        <div class="filter-group" id="chip-bar"></div>
+      </div>
+
+      <div class="clinics-grid" id="clinics-grid"></div>
+
+      <div class="catalog__empty" id="catalog-empty">
+        <div class="emoji">🔎</div>
+        <h3>Ничего не найдено</h3>
+        <p>Попробуйте изменить запрос или сбросить фильтры.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ЦЕНЫ ==================== -->
+  <section class="section" id="prices">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="section-tag">Цены</span>
+        <h2 class="section-title">Сколько стоят зубы в Минске</h2>
+        <p class="section-sub">Ориентировочные цены на популярные услуги. Итоговая стоимость зависит от сложности случая.</p>
+      </div>
+      <div class="reveal">
+        <table class="prices-table">
+          <thead>
+            <tr>
+              <th>Услуга</th>
+              <th>Стоимость</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Консультация + осмотр</td><td>15–30 BYN</td></tr>
+            <tr><td>Установка импланта</td><td>от 658 BYN</td></tr>
+            <tr><td>Имплант «под ключ» (Osstem)</td><td>от 1000 BYN</td></tr>
+            <tr><td>Имплант «под ключ» (Straumann)</td><td>от 1700 BYN</td></tr>
+            <tr><td>Металлокерамическая коронка</td><td>от 850 BYN</td></tr>
+            <tr><td>Циркониевая коронка</td><td>от 900 BYN</td></tr>
+            <tr><td>Протокол All-on-4</td><td>от 7500 BYN</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="prices-note reveal">💡 <strong>Выгодно:</strong> в Минске полная имплантация обходится в среднем на 30–40% дешевле, чем в Москве и Санкт-Петербурге — при сопоставимом уровне оборудования и материалов.</p>
+    </div>
+  </section>
+
+  <!-- ==================== ТУРИЗМ / ПОЧЕМУ МИНСК ==================== -->
+  <section class="section tourism" id="tourism">
+    <div class="container tourism__grid">
+      <div class="reveal">
+        <img class="tourism__img" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80" alt="Интерьер современной стоматологической клиники" loading="lazy">
+      </div>
+      <div class="reveal reveal-delay-1">
+        <span class="section-tag">Гостям из РФ</span>
+        <h2 class="section-title">Почему лечить зубы в Минске выгодно</h2>
+        <p class="section-sub">Каждый год тысячи пациентов из России приезжают в Минск за качественной стоматологией. И вот почему.</p>
+        <div class="tourism__points">
+          <div class="tourism__point">
+            <span class="tourism__point-ico">💶</span>
+            <div>
+              <div class="tourism__point-title">Экономия до $3000</div>
+              <div class="tourism__point-text">При комплексном лечении разница с московскими ценами достигает десятков тысяч рублей.</div>
+            </div>
+          </div>
+          <div class="tourism__point">
+            <span class="tourism__point-ico">🪪</span>
+            <div>
+              <div class="tourism__point-title">Без визы и без языка</div>
+              <div class="tourism__point-text">Въезд без визы, весь персонал говорит по-русски, документация понятна.</div>
+            </div>
+          </div>
+          <div class="tourism__point">
+            <span class="tourism__point-ico">🚄</span>
+            <div>
+              <div class="tourism__point-title">Близко и быстро</div>
+              <div class="tourism__point-text">Поезд из Москвы за 7 часов, из Санкт-Петербурга — за 6. Можно приехать на выходные.</div>
+            </div>
+          </div>
+          <div class="tourism__point">
+            <span class="tourism__point-ico">🏅</span>
+            <div>
+              <div class="tourism__point-title">Мировые бренды имплантов</div>
+              <div class="tourism__point-text">Straumann, Nobel Biocare, Osstem — те же системы, что и в Европе.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== КАК ВЫБРАТЬ ==================== -->
+  <section class="section" id="how">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="section-tag">Гайд</span>
+        <h2 class="section-title">Как выбрать клинику за 4 шага</h2>
+        <p class="section-sub">Простой алгоритм, который сэкономит время и деньги.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <h3 class="step__title">Определите задачу</h3>
+          <p class="step__text">Лечение, имплантация, детский приём или эстетика — у каждой клиники есть специализация.</p>
+        </div>
+        <div class="step reveal reveal-delay-1">
+          <h3 class="step__title">Отфильтруйте по району</h3>
+          <p class="step__text">Выберите клиники рядом с домом или работой, чтобы не тратить время на дорогу.</p>
+        </div>
+        <div class="step reveal reveal-delay-2">
+          <h3 class="step__title">Сравните рейтинги</h3>
+          <p class="step__text">4.5+ — уверенная отметка качества. Обратите внимание на свежесть отзывов.</p>
+        </div>
+        <div class="step reveal reveal-delay-3">
+          <h3 class="step__title">Запишитесь на осмотр</h3>
+          <p class="step__text">На консультации уточните финальную смету «под ключ» — многие клиники дают её бесплатно.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ОТЗЫВЫ ==================== -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="section-tag">Отзывы</span>
+        <h2 class="section-title">Что говорят пациенты</h2>
+        <p class="section-sub">Реальные впечатления людей, которые лечились в клиниках из нашего каталога.</p>
+      </div>
+      <div class="reviews-grid">
+        <div class="review reveal">
+          <div class="review__stars">★★★★★</div>
+          <p class="review__text">«Делал имплантацию в ЭверестДент. Врач всё объяснил, дали точную смету заранее, ни копейки сверху. Прошло уже полгода — всё отлично.»</p>
+          <div class="review__author">
+            <span class="review__avatar">Д</span>
+            <div>
+              <div class="review__name">Дмитрий, 34</div>
+              <div class="review__meta">ЭверестДент · имплантация</div>
+            </div>
+          </div>
+        </div>
+        <div class="review reveal reveal-delay-1">
+          <div class="review__stars">★★★★★</div>
+          <p class="review__text">«Приехала из Москвы за All-on-4. Окупилось даже с дорогой и проживанием. Клиника Винир — современный микроскоп, доктор суперпрофессионал.»</p>
+          <div class="review__author">
+            <span class="review__avatar">Е</span>
+            <div>
+              <div class="review__name">Елена, 52</div>
+              <div class="review__meta">Винир · All-on-4</div>
+            </div>
+          </div>
+        </div>
+        <div class="review reveal reveal-delay-2">
+          <div class="review__stars">★★★★★</div>
+          <p class="review__text">«Водила дочку в Детский центр стоматологии — ребёнок не боялся совсем. Мультики, игрушки, терпеливый врач. Теперь ходим только туда.»</p>
+          <div class="review__author">
+            <span class="review__avatar">А</span>
+            <div>
+              <div class="review__name">Анна, 29</div>
+              <div class="review__meta">Детский центр · детский приём</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FAQ ==================== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="section-tag">FAQ</span>
+        <h2 class="section-title">Частые вопросы</h2>
+      </div>
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-item__q">Почему в Минске дешевле, чем в России? <span class="plus">+</span></button>
+          <div class="faq-item__a"><div class="faq-item__a-inner">Курс белорусского рубля, стоимость аренды и оплаты труда врачей ниже. При этом клиники закупают те же мировые бренды оборудования и материалов — Straumann, 3M, VITA. Экономия на комплексном лечении достигает 30–40%.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">Что нужно для записи гостю из РФ? <span class="plus">+</span></button>
+          <div class="faq-item__a"><div class="faq-item__a-inner">Достаточно паспорта РФ и снимков (если есть). Многие клиники помогают с организацией проживания и трансфера. Въезд безвизовый, пересечение границы занимает 10–15 минут.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">Как понять, что клиника качественная? <span class="plus">+</span></button>
+          <div class="faq-item__a"><div class="faq-item__a-inner">Ориентируйтесь на три вещи: рейтинг 4.5+ с достаточным числом отзывов, наличие современного оборудования (микроскопы, 3D-томограф) и прозрачную смету «под ключ» до начала лечения.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">Можно ли вернуться домой сразу после имплантации? <span class="plus">+</span></button>
+          <div class="faq-item__a"><div class="faq-item__a-inner">Да. Установка импланта — амбулаторная процедура (40–90 минут). После неё можно ехать домой. Следующие визиты назначаются через 3–6 месяцев, но многие этапы можно совместить в одну поездку.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">Дают ли клиники гарантию? <span class="plus">+</span></button>
+          <div class="faq-item__a"><div class="faq-item__a-inner">Да, стандартная гарантия на имплантацию — 5 лет и более, на коронки — от 1 года. Условия прописаны в договоре. Гарантийные визиты обычно бесплатные.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA ==================== -->
+  <section class="cta" id="contact">
+    <div class="container cta__inner">
+      <h2 class="cta__title">Не знаете, с чего начать?</h2>
+      <p class="cta__sub">Оставьте заявку — подберём клинику под вашу задачу и бюджет, поможем записаться на бесплатный осмотр.</p>
+      <button class="btn btn--accent" data-open-modal>Подобрать мне клинику →</button>
+      <p class="cta__hint">Бесплатно · без спама · ответим в течение 15 минут</p>
+    </div>
+  </section>
+
+  <!-- ==================== ПОДВАЛ ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="#top" class="logo">
+            <span class="logo__mark">🦷</span>
+            <span>Zuby<span style="color:var(--accent)">.by</span></span>
+          </a>
+          <p class="footer__about">Независимый агрегатор стоматологических клиник Минска. Собираем рейтинги, цены и контакты, чтобы выбор был простым и честным.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Разделы</h4>
+          <a href="#clinics">Клиники</a>
+          <a href="#prices">Цены</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer__col">
+          <h4>Пациентам</h4>
+          <a href="#how">Как выбрать</a>
+          <a href="#tourism">Гостям из РФ</a>
+          <a href="#contact" data-open-modal>Подобрать клинику</a>
+        </div>
+        <div class="footer__col">
+          <h4>Контакты</h4>
+          <a href="#contact" data-open-modal>Задать вопрос</a>
+          <a href="mailto:hello@zuby.by">hello@zuby.by</a>
+          <a href="#top">Минск, Беларусь</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Zuby.by — агрегатор стоматологий Минска</span>
+        <span>Информация носит справочный характер</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== МОДАЛКА ==================== -->
+  <div class="modal" id="contact-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal__card">
+      <div class="modal__ico">🦷</div>
+      <h3 class="modal__title" id="modal-title">Спасибо за заявку!</h3>
+      <p class="modal__text">Мы получили ваш запрос. Менеджер свяжется с вами в течение 15 минут в рабочее время, чтобы подобрать клинику и записать на бесплатный осмотр.</p>
+      <button class="modal__btn" id="modal-btn">Отлично</button>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
